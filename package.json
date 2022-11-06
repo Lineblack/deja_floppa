@@ -1,0 +1,27 @@
+{
+  "name": "deja_floppa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lineblack/deja_floppa.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lineblack/deja_floppa/issues"
+  },
+  "homepage": "https://github.com/Lineblack/deja_floppa#readme",
+  "dependencies": {
+    "discord.js": "^14.6.0",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.27.0"
+  }
+}
