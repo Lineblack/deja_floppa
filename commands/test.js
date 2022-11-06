@@ -18,7 +18,7 @@ module.exports = {
 			database: db,
 		});
 		const user = interaction.options.get('user');
-		const query = `SELECT cash FROM characters WHERE name = '${user}'`;
+		const query = `SELECT Money FROM characters WHERE Username = '${user}'`;
 		dbe.query(query, async (err, result) => {
 			if (err) throw err;
 			console.log(result);
